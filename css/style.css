@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efd8a4;
+  position: relative;
+  
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-image: url("../assets/images/IMG_1009cortada.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerBackground {
+  background: linear-gradient(
+    315deg,
+    rgba(239, 216, 164, 1) 1%,
+    rgba(255, 178, 96, 1) 57%,
+    rgba(128, 0, 0, 1) 100%
+  );
+}
+
+.logo1 {
+  width: 100px;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+ul li {
+  list-style: none;
+}
+
+.btn-formulario {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #efd8a4;
+  border-radius: 25px;
+  border-color: maroon;
+  border-style: outset;
+  border-width: 3px;
+}
+
+.menu__inicio {
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 1rem;
+}
+
+.menu__inicio__item {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  background-color: #ffb260;
+  border-color: maroon;
+  border-style: outset;
+  border-radius: 15px;
+  border-width: 5px;
+}
+
+.menu__inicio__item:hover {
+  background-color: #fcd1a4;
+  border-color: rgb(241, 177, 177);
+  transform: scale(1.2);
+  animation-name: efecto_letra;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+.sectionFoto {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fotoUno {
+  width: 220px;
+  height: 200px;
+}
+
+.fotoDos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  width: 220px;
+  height: 200px;
+}
+
+.aumento_escala:hover {
+  transform: scale(1.2);
+}
+.card-img-overlay {
+  color: rgba(255, 255, 255, 0.39);
+  font-weight: 600;
+}
+
+.card-img-overlay:hover {
+  animation-name: efecto_letras;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+.parrafo {
+  display: flex;
+  background-color: #ffb260b6;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  flex-wrap: wrap;
+}
+
+.video:hover {
+  transform: scale(1.1);
+}
+
+.video {
+  display: flex;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  flex-wrap: wrap;
+}
+
+.botonWsp {
+  height: 100px;
+  padding: 18px 10px;
+  position: fixed;
+  bottom: 40px;
+  right: 0;
+  z-index: 99;
+  border-radius: 100px;
+}
+
+footer {
+  height: 5em;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(
+    149deg,
+    rgba(239, 216, 164, 1) 1%,
+    rgba(255, 178, 96, 1) 57%,
+    rgba(128, 0, 0, 1) 100%
+  );
+  margin-top: 5rem;
+  width: 100%;
+  align-items: center;
+  margin-top: auto;
+ 
+}
+
+footer nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  background-color: #ffb260;
+  border-color: maroon;
+  border-radius: 15px;
+  margin-left: 20px;
+  animation-name: efecto_boton;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+}
+
+.redesSociales {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.redesSociales:hover {
+  font-weight: bold;
+}
+
+.footerSubmenu {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.footerItem{
+display: flex;
+gap: 10px;
+}
+
+@keyframes efecto_letras {
+  0% {
+    background-color: rgba(0, 0, 0, 0.34);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.34);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+  }
+}
+
+@keyframes efecto_boton {
+  0% {
+    width: 100 px;
+    height: 40px;
+    border-color: #ffb260;
+  }
+
+  50% {
+    width: 100px;
+    height: 40px;
+    border-color: maroon;
+  }
+
+  100% {
+    width: 100px;
+    height: 40px;
+    border-color: #ffb260;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    flex-wrap: wrap;
+  }
+ 
+}
+
+@media screen and (max-width: 320px) {
+  .fotoUno {
+    height: 150px;
+    width: 130px;
+  }
+
+  iframe { 
+    width: 200px;
+
+  }
+  .botonWsp {
+    display: none;
+  }
+}
