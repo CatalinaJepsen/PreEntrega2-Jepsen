@@ -90,6 +90,7 @@ img:hover {
   margin-top: 3rem;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 3rem;
 }
 
 .fotoUno {
@@ -110,7 +111,7 @@ img:hover {
   transform: scale(1.2);
 }
 .card-img-overlay {
-  color: rgba(255, 255, 255, 0.39);
+  color: rgba(255, 255, 255, 0);
   font-weight: 600;
 }
 
@@ -118,6 +119,13 @@ img:hover {
   animation-name: efecto_letras;
   animation-iteration-count: infinite;
   animation-duration: 10s;
+}
+
+.sectionInfo {
+  display: flex;
+  margin-bottom: 4rem;
+  
+
 }
 
 .parrafo {
