@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pastas</title>
+    <title>La Oma-Pastas</title>
+    <meta name="description" content="Pastas para todos los gustos">
+    <meta name="keywords" content="pastas rellenas, fideos, raviol, sorrentino, italia">
 
     <!--Hoja de estilos boostrap-->
     <link
@@ -20,7 +22,7 @@
     <header class="headerBackground">
       <nav class="navbar navbar-light">
         <a class="navbar-brand" href="../../index.html"
-          ><img class="logo1" src="../../assets/images/logo.png" alt="inicio" />
+          ><img class="logo1" src="../../assets/images/logo.webp" alt="inicio" />
           </a
         >
 
@@ -62,50 +64,110 @@
     <main>
       <div>
         <h1 class="despliegueMenu">Pastas</h1>
-        <ul>
-          <li class="listaMenu">Raviol de verdura</li>
-          <li class="listaMenu">Sorrentino jamón y queso</li>
-          <li class="listaMenu">Tagliatelle al huevo</li>
-          <li class="listaMenu">Ñoquis de espinaca</li>
-        </ul>
-      </div>
-
-      <section class="galeriaPasta">
-        <img
-          class="fotoDos"
-          src="../../assets/images/IMG_0491.jpg"
-          alt="pastasenplato"
-        />
-
-        <img
-          class="fotoDos"
-          src="../../assets/images/sorrentinocaprese.jpg"
-          alt="sorrentinocaprese"
-        />
-      </section>
-
-      <div>
+        <section class="sectionFoto">
+          <div class="aumento_escala">
+            <div class="card text-bg-dark">
+              <img
+                class="fotoUno"
+                src="../../assets/images/sorrentinocaprese.webp"
+                class="card-img"
+                alt="sorrentino"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Sorrentinos</h5>
+                <p class="card-text">
+                  De muzzarella y Jamón, Caprese y veganos con rellenos aptos y masa sin huevo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="aumento_escala">
+            <div class="card text-bg-dark">
+              <img
+                class="fotoUno"
+                src="../../assets/images/tagliatelle.webp"
+                class="card-img"
+                alt="tagliatelle"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Tagliatelle</h5>
+                <p class="card-text">
+                 Cintas clásicas al huevo, con morrones asados o espinaca fresca.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="aumento_escala">
+            <div class="card text-bg-dark">
+              <img
+                class="fotoUno"
+                src="../../assets/images/raviol.webp"
+                class="card-img"
+                alt="raviol"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Raviolones</h5>
+                <p class="card-text">
+                  No solo nuestros rellenos son estrellas, las masas de las pastas también tienen sabor.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="aumento_escala">
+            <div class="card text-bg-dark">
+              <img
+                class="fotoUno"
+                src="../../assets/images/noqui.webp"
+                class="card-img"
+                alt="noqui"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">Ñoquis</h5>
+                <p class="card-text">
+                  De espinaca o clásicos ¿Cuál preferís?
+                  Te salvan de todo apuro.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div>
         <a
           href="https://api.whatsapp.com/send?phone=5491156542170"
           target="_blank"
         >
           <img
             class="botonWsp"
-            src="../../assets/images/icono-wsp.png"
+            src="../../assets/images/icono-wsp.webp"
             alt="whatsapp"
         /></a>
       </div>
     </main>
-    <footer class="footerSubmenu">
-      <a
-        href="https://www.facebook.com/laomaartesanalpanaderia/"
-        target="_blank"
-        >Facebook</a
-      >
-      <a href="https://www.instagram.com/laomaartesanal/" target="_blank"
-        >Instagram</a
-      >
-      
+    <footer class="container-fluid footer">
+      <div>
+        <a class="btn-lg me-2 arriba" href="#volverArriba"
+          ><button>Volver arriba</button></a
+        >
+      </div>
+      <nav class="container-fluid">
+        <ul class="row ">
+          <li class="col-sm-10 redesSociales">
+            <a  href="../../pages/contacto.html">Newsletter</a>
+          </li>
+          <li class="col-sm-1 redesSociales">
+            <a
+              href="https://www.facebook.com/laomaartesanalpanaderia/"
+              target="_blank"
+              ><i class="fa-brands fa-square-facebook"></i>
+            </a>
+          </li>
+          <li class="col-sm-1 redesSociales">
+            <a href="https://www.instagram.com/laomaartesanal/" target="_blank"
+              ><i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

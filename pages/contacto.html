@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>registro</title>
+    <title>La Oma-Registro</title>
+    <meta name="description" content="registrate para empezar a comprar">
+    <meta name="keywords" content="pan, tortas, panaderia, pastas, lunch, desayunos, sandwich">
 
     <!--Hoja de estilos boostrap-->
     <link
@@ -27,9 +29,8 @@
       <!--NAVBAR-->
       <nav class="navbar navbar-light">
         <a class="navbar-brand" href="../index.html"
-          ><img class="logo1" src="../assets/images/logo.png" alt="inicio" />
-          </a
-        >
+          ><img class="logo1" src="../assets/images/logo.webp" alt="inicio" />
+        </a>
 
         <div class="dropdown" dropdown-menu>
           <button
@@ -113,14 +114,14 @@
                 <div>
                   <legend>¿Desea recibir noticias de La Oma?</legend>
                   <div>
-                    <label for="si">si</label>
+                    <label for="si">Si</label>
                     <input
                       type="radio"
                       name="noticias"
                       id="si"
                       value="newsletter si"
                     />
-                    <label for="no">no</label>
+                    <label for="no">No</label>
                     <input
                       type="radio"
                       name="noticias"
@@ -149,8 +150,8 @@
                     <input type="checkbox" id="tortas" value="tortas" />
                   </div>
                   <div>
-                    <input type="submit" value="Enviar" />
-                    <input type="reset" value="Borrar" />
+                    <input class="botonConfirmacion" type="submit" value="Enviar" />
+                    <input class="botonConfirmacion" type="reset" value="Borrar" />
                   </div>
                 </div>
               </fieldset>
@@ -165,21 +166,36 @@
         >
           <img
             class="botonWsp"
-            src="../assets/images/icono-wsp.png"
+            src="../assets/images/icono-wsp.webp"
             alt="whatsapp"
         /></a>
       </div>
     </main>
-    <footer class="footerSubmenu">
-      <a
-        href="https://www.facebook.com/laomaartesanalpanaderia/"
-        target="_blank"
-        >Facebook</a
-      >
-      <a href="https://www.instagram.com/laomaartesanal/" target="_blank"
-        >Instagram</a
-      >
-      
+    <footer class="container-fluid footer">
+      <div>
+        <a class="btn-lg me-2 arriba" href="#volverArriba"
+          ><button>Volver arriba</button></a
+        >
+      </div>
+      <nav class="container-fluid">
+        <ul class="row ">
+          <li class="col-sm-10 redesSociales">
+            <a  href="../pages/contacto.html">Newsletter</a>
+          </li>
+          <li class="col-sm-1 redesSociales">
+            <a
+              href="https://www.facebook.com/laomaartesanalpanaderia/"
+              target="_blank"
+              ><i class="fa-brands fa-square-facebook"></i>
+            </a>
+          </li>
+          <li class="col-sm-1 redesSociales">
+            <a href="https://www.instagram.com/laomaartesanal/" target="_blank"
+              ><i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

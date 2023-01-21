@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Boxes</title>
+    <title>La Oma-Boxes</title>
+    <meta name="description" content="Regala desayunos y meriendas de La Oma">
+    <meta name="keywords" content="tortas, panaderia, desayunos, cumpleaños, aniversario">
 
     <!--Hoja de estilos boostrap-->
     <link
@@ -20,7 +22,7 @@
     <header class="headerBackground">
       <nav class="navbar navbar-light">
         <a class="navbar-brand" href="../../index.html"
-          ><img class="logo1" src="../../assets/images/logo.png" alt="inicio" /></a>
+          ><img class="logo1" src="../../assets/images/logo.webp" alt="inicio" /></a>
 
         <div class="dropdown" dropdown-menu>
           <button
@@ -60,14 +62,72 @@
     <main>
       <div>
         <h1 class="despliegueMenu">Boxes</h1>
-        <ul>
-          <li class="listaMenu">Desayunos</li>
-          <li class="listaMenu">Días especiales</li>
-        </ul>
-      </div>
-      <div class="fotoDos">
-        <img src="../../assets/images/bandeja-desayuno.jpg" alt="bandeja" />
-      </div>
+        <section class="sectionFoto">
+        <div class="aumento_escala">
+          <div class="card text-bg-dark">
+            <img
+              class="fotoUno"
+              src="../../assets/images/bandeja-desayuno.webp"
+              class="card-img"
+              alt="bandejas"
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Desayunos</h5>
+              <p class="card-text">
+                Bandejas de desayuno para regalar.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="aumento_escala">
+          <div class="card text-bg-dark">
+            <img
+              class="fotoUno"
+              src="../../assets/images/alfajormaicena.webp"
+              class="card-img"
+              alt="alfajor-maicena"
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Alfajores de Maicena</h5>
+              <p class="card-text">
+               Cajita por 9 unidades de alfajores tamaño gigante.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="aumento_escala">
+          <div class="card text-bg-dark">
+            <img
+              class="fotoUno"
+              src="../../assets/images/boxPostres.webp"
+              class="card-img"
+              alt="postres"
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Trio de Postres</h5>
+              <p class="card-text">
+                Armá nuestro trio como quieras! Postres para cucharear.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="aumento_escala">
+          <div class="card text-bg-dark">
+            <img
+              class="fotoUno"
+              src="../../assets/images/boxmadre.webp"
+              class="card-img"
+              alt="Dia de la Madre"
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title">Dia de la Madre</h5>
+              <p class="card-text">
+               Un regalo especial para compartir con Mamá en su día.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <div>
         <a
           href="https://api.whatsapp.com/send?phone=5491156542170"
@@ -75,21 +135,36 @@
         >
           <img
             class="botonWsp"
-            src="../../assets/images/icono-wsp.png"
+            src="../../assets/images/icono-wsp.webp"
             alt="whatsapp"
         /></a>
       </div>
     </main>
-    <footer class="footerSubmenu">
-      <a
-        href="https://www.facebook.com/laomaartesanalpanaderia/"
-        target="_blank"
-        >Facebook</a
-      >
-      <a href="https://www.instagram.com/laomaartesanal/" target="_blank"
-        >Instagram</a
-      >
-      
+    <footer class="container-fluid footer">
+      <div>
+        <a class="btn-lg me-2 arriba" href="#volverArriba"
+          ><button>Volver arriba</button></a
+        >
+      </div>
+      <nav class="container-fluid">
+        <ul class="row ">
+          <li class="col-sm-10 redesSociales">
+            <a  href="../../pages/contacto.html">Newsletter</a>
+          </li>
+          <li class="col-sm-1 redesSociales">
+            <a
+              href="https://www.facebook.com/laomaartesanalpanaderia/"
+              target="_blank"
+              ><i class="fa-brands fa-square-facebook"></i>
+            </a>
+          </li>
+          <li class="col-sm-1 redesSociales">
+            <a href="https://www.instagram.com/laomaartesanal/" target="_blank"
+              ><i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
