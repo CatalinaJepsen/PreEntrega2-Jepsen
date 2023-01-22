@@ -87,6 +87,7 @@ main .sectionFoto {
   margin-top: 3rem;
   align-items: center;
   flex-wrap: wrap;
+<<<<<<< HEAD
   margin-bottom: 3rem; }
   main .sectionFoto .aumento_escala:hover {
     transform: scale(1.2); }
@@ -106,6 +107,10 @@ main .sectionFoto {
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
     main .sectionFoto .aumento_escala div .card-img-overlay p {
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+=======
+  margin-bottom: 3rem;
+}
+>>>>>>> 8abafd093e3e5f1bdf33754bd7bdee51c9d31d49
 
 .sectionInfo {
   display: flex;
@@ -133,11 +138,58 @@ main .sectionFoto {
     .sectionInfo div .video h2 {
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
 
+<<<<<<< HEAD
 div a .botonWsp {
   -webkit-animation: heartbeat 2s steps(2, end) infinite both;
   animation: heartbeat 2s steps(2, end) infinite both;
   height: 80px;
   padding: 10px 10px;
+=======
+.aumento_escala:hover {
+  transform: scale(1.2);
+}
+.card-img-overlay {
+  color: rgba(255, 255, 255, 0);
+  font-weight: 600;
+}
+
+.card-img-overlay:hover {
+  animation-name: efecto_letras;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+.sectionInfo {
+  display: flex;
+  margin-bottom: 4rem;
+  
+
+}
+
+.parrafo {
+  display: flex;
+  background-color: #ffb260b6;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  flex-wrap: wrap;
+}
+
+.video:hover {
+  transform: scale(1.1);
+}
+
+.video {
+  display: flex;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  flex-wrap: wrap;
+}
+
+.botonWsp {
+  height: 100px;
+  padding: 18px 10px;
+>>>>>>> 8abafd093e3e5f1bdf33754bd7bdee51c9d31d49
   position: fixed;
   bottom: 60px;
   right: 0;
